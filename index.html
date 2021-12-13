@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <base href="">
+  <title></title>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-206079531-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'UA-206079531-1');
+  </script>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <!-- Template Basic Images Start-->
+  <meta property="og:image" content="/assets/templates/default/path/to/image.jpg" />
+  <link rel="shortcut icon" href="assets/templates/default/img/favicon/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="assets/templates/default/img/favicon/apple-touch-icon.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="assets/templates/default/img/favicon/apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="assets/templates/default/img/favicon/apple-touch-icon-114x114.png" />
+  <!-- Template Basic Images End-->
+  <!-- Custom Browsers Color Start-->
+  <meta name="theme-color" content="#f97c17" />
+  <!-- Custom Browsers Color End-->
+  <link rel="stylesheet" href="assets/templates/default/css/style.min.css" />
+  <script src="https://www.google.com/recaptcha/api.js?onload=onloadCaptchaCallback&render=explicit&hl=ru" async defer></script>
+  <link rel="stylesheet" href="assets/components/ajaxform/css/default.css" type="text/css" />
+</head>
+
+<body>
+  <!-- header -->
+  <header>
+    <!-- nav -->
+    <div class="container-fluid header border-bottom">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-sm-6 col-lg-3 pr-0 order-1">
+            <a class="logo" href="index.html"> <img src="assets/templates/default/img/logo.png" alt="Самсунг" /> <span>cервисное<br/>обслуживание</span> </a>
+          </div>
+          <div class="col-lg-6 order-3 order-sm-3 order-lg-2">
+            <div class="d-none d-md-block">
+              <ul class="nav nav-pills nav-fill header__nav">
+                <li class="nav-item first"> <a href="uslugi/index.html" class="nav-link"> Услуги </a> </li>
+                <li class="nav-item"> <a href="garantiya.html" class="nav-link"> Гарантия </a> </li>
+                <li class="nav-item"> <a href="o-nas.html" class="nav-link"> О нас </a> </li>
+                <li class="nav-item last"> <a href="kontaktyi/index.html" class="nav-link"> Контакты </a> </li>
+              </ul>
+            </div>
+            <div class="d-block d-md-none">
+              <nav class="navbar navbar-expand-lg navbar-light"> <a class="navbar-brand phone_alloka" href="tel:+78123341145">+7 (812) 334-11-45</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav">
+                    <li class="nav-item first"> <a href="uslugi/index.html" class="nav-link"> Услуги </a> </li>
+                    <li class="nav-item"> <a href="garantiya.html" class="nav-link"> Гарантия </a> </li>
+                    <li class="nav-item"> <a href="o-nas.html" class="nav-link"> О нас </a> </li>
+                    <li class="nav-item last"> <a href="kontaktyi/index.html" class="nav-link"> Контакты </a> </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3 order-2 text-right d-none d-sm-block"> <a class="header__phone phone_alloka" href="tel:+78123341145">+7 (812) 334-11-45</a>
+            <p class="header__address">Санкт-Петербург, 2-я Красноармейская ул., 11</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end nav -->
+    <div class="container-fluid d-none d-md-block">
+      <div class="row">
+        <!-- carusel -->
+        <div class="carousel slide carousel-fade" id="carouselExampleFade" data-ride="carousel" data-interval="5000">
+          <div class="carousel-inner">
+            <div class="carousel-item active"> <img class="d-block w-100" src="assets/templates/default/img/bg/bg-note.jpg" alt="First slide" style="height: 540px" />
+              <div class="carousel-caption container">
+                <div class="row">
+                  <div class="col-lg-6 col-xl-5">
+                    <h3> <span class="color-cf6">Ремонт вашего ноутбука<br/>Samsung </span>в день обращения <br/>за 1,5 часа</h3>
+                    <p class="mt-20">благодаря собственному складу оригинальных запчастей</p>
+                    <!-- mainForm -->
+                    <form method="post" class="mainForm ajax_form">
+                      <input type="hidden" name="flink" value="https://spb-serv-centre-sam.ru/">
+                      <input type="hidden" name="pageName" value="Главная">
+                      <p>Чтобы заказать ремонт, оставьте ваш номер телефона,
+                        <br/>мы перезвоним через 10 минут!</p>
+                      <div class="mainForm__content">
+                        <div class="col-7">
+                          <input class="form-control phone-mask" name="fphone" minlength="16" type="text" placeholder="+7 ___-___-__-__" / value="" /> </div>
+                        <div class="col-5">
+                          <input class="btn btn-outline-light" type="submit" value="Отправить" /> </div>
+                      </div>
+                      <p> <b>Скидка 20% </b>от прайса по предварительной записи</p>
+                      <input type="text" name="surname" class="form-input cakeh" placeholder="Фамилия">
+                      <style>
+                        .cakeh {
+                          display: block;
+                          width: 2px;
+                          height: 3px;
+                          margin-bottom: -3px;
+                          opacity: 0.01
+                        }
+                      </style>
+                      <input type="hidden" name="af_action" value="ffa491db6b1ce57747f22f10cc4a3495" /> </form>
+                    <!-- end mainForm -->
+                  </div>
+                  <div class="col-lg-6 col-xl-7 text-center align-self-center"><img class="mt-60" src="assets/templates/default/img/slider/note.png" alt="" /></div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item"><img class="d-block w-100" src="assets/templates/default/img/bg/bg-smart.jpg" alt="Second slide" style="height: 540px" />
+              <div class="carousel-caption container">
+                <div class="row" style="height:100%">
+                  <div class="col-lg-6 col-xl-5">
+                    <h3> <span class="color-7ca">Ремонт вашего смартфона<br/>Samsung </span>в день обращения <br/>за 1,5 часа</h3>
+                    <p class="mt-20">благодаря собственному складу оригинальных запчастей</p>
+                    <!-- mainForm -->
+                    <form method="post" class="mainForm ajax_form">
+                      <input type="hidden" name="flink" value="https://spb-serv-centre-sam.ru/">
+                      <input type="hidden" name="pageName" value="Главная">
+                      <p>Чтобы заказать ремонт, оставьте ваш номер телефона,
+                        <br/>мы перезвоним через 10 минут!</p>
+                      <div class="mainForm__content">
+                        <div class="col-7">
+                          <input class="form-control phone-mask" name="fphone" minlength="16" type="text" placeholder="+7 ___-___-__-__" / value="" /> </div>
+                        <div class="col-5">
+                          <input class="btn btn-outline-light" type="submit" value="Отправить" /> </div>
+                      </div>
+                      <p> <b>Скидка 20% </b>от прайса по предварительной записи</p>
+                      <input type="text" name="surname" class="form-input cakeh" placeholder="Фамилия">
+                      <style>
+                        .cakeh {
+                          display: block;
+                          width: 2px;
+                          height: 3px;
+                          margin-bottom: -3px;
+                          opacity: 0.01
+                        }
+                      </style>
+                      <input type="hidden" name="af_action" value="ffa491db6b1ce57747f22f10cc4a3495" /> </form>
+                    <!-- end mainForm -->
+                  </div>
+                  <div class="col-lg-6 col-xl-7 align-self-end text-center"><img src="assets/templates/default/img/slider/phone.png" alt="" /></div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item"><img class="d-block w-100" src="assets/templates/default/img/bg/bg-tabl.jpg" alt="Third slide" style="height: 540px" />
+              <div class="carousel-caption container">
+                <div class="row">
+                  <div class="col-lg-6 col-xl-5">
+                    <h3> <span class="color-cf6">Ремонт вашего телевизора<br/>Samsung </span>в день обращения <br/>за 1,5 часа</h3>
+                    <p class="mt-20">благодаря собственному складу оригинальных запчастей</p>
+                    <!-- mainForm -->
+                    <form method="post" class="mainForm ajax_form">
+                      <input type="hidden" name="flink" value="https://spb-serv-centre-sam.ru/">
+                      <input type="hidden" name="pageName" value="Главная">
+                      <p>Чтобы заказать ремонт, оставьте ваш номер телефона,
+                        <br/>мы перезвоним через 10 минут!</p>
+                      <div class="mainForm__content">
+                        <div class="col-7">
+                          <input class="form-control phone-mask" name="fphone" minlength="16" type="text" placeholder="+7 ___-___-__-__" / value="" /> </div>
+                        <div class="col-5">
+                          <input class="btn btn-outline-light" type="submit" value="Отправить" /> </div>
+                      </div>
+                      <p> <b>Скидка 20% </b>от прайса по предварительной записи</p>
+                      <input type="text" name="surname" class="form-input cakeh" placeholder="Фамилия">
+                      <style>
+                        .cakeh {
+                          display: block;
+                          width: 2px;
+                          height: 3px;
+                          margin-bottom: -3px;
+                          opacity: 0.01
+                        }
+                      </style>
+                      <input type="hidden" name="af_action" value="ffa491db6b1ce57747f22f10cc4a3495" /> </form>
+                    <!-- end mainForm -->
+                  </div>
+                  <div class="col-lg-6 col-xl-7 text-center align-self-center"><img class="mt-60" src="assets/templates/default/img/slider/tv.png" alt="" /></div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item"><img class="d-block w-100" src="assets/templates/default/img/bg/bg-tv.jpg" alt="Third slide" style="height: 540px" />
+              <div class="carousel-caption container">
+                <div class="row">
+                  <div class="col-lg-6 col-xl-5">
+                    <h3> <span class="color-7ca">Ремонт вашего планшета<br/>Samsung </span>в день обращения <br/>за 1,5 часа</h3>
+                    <p class="mt-20">благодаря собственному складу оригинальных запчастей</p>
+                    <!-- mainForm -->
+                    <form method="post" class="mainForm ajax_form">
+                      <input type="hidden" name="flink" value="https://spb-serv-centre-sam.ru/">
+                      <input type="hidden" name="pageName" value="Главная">
+                      <p>Чтобы заказать ремонт, оставьте ваш номер телефона,
+                        <br/>мы перезвоним через 10 минут!</p>
+                      <div class="mainForm__content">
+                        <div class="col-7">
+                          <input class="form-control phone-mask" name="fphone" minlength="16" type="text" placeholder="+7 ___-___-__-__" / value="" /> </div>
+                        <div class="col-5">
+                          <input class="btn btn-outline-light" type="submit" value="Отправить" /> </div>
+                      </div>
+                      <p> <b>Скидка 20% </b>от прайса по предварительной записи</p>
+                      <input type="text" name="surname" class="form-input cakeh" placeholder="Фамилия">
+                      <style>
+                        .cakeh {
+                          display: block;
+                          width: 2px;
+                          height: 3px;
+                          margin-bottom: -3px;
+                          opacity: 0.01
+                        }
+                      </style>
+                      <input type="hidden" name="af_action" value="ffa491db6b1ce57747f22f10cc4a3495" /> </form>
+                    <!-- end mainForm -->
+                  </div>
+                  <div class="col-lg-6 col-xl-7 text-center align-self-center"><img class="mt-60" src="assets/templates/default/img/slider/tabl.png" alt="" /></div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item"><img class="d-block w-100" src="assets/templates/default/img/bg/bg-watch.jpg" alt="Third slide" style="height: 540px" />
+              <div class="carousel-caption container">
+                <div class="row">
+                  <div class="col-lg-6 col-xl-5">
+                    <h3> <span class="color-c80">Ремонт ваших часов<br/>Samsung </span>в день обращения <br/>за 1,5 часа</h3>
+                    <p class="mt-20">благодаря собственному складу оригинальных запчастей</p>
+                    <!-- mainForm -->
+                    <form method="post" class="mainForm ajax_form">
+                      <input type="hidden" name="flink" value="https://spb-serv-centre-sam.ru/">
+                      <input type="hidden" name="pageName" value="Главная">
+                      <p>Чтобы заказать ремонт, оставьте ваш номер телефона,
+                        <br/>мы перезвоним через 10 минут!</p>
+                      <div class="mainForm__content">
+                        <div class="col-7">
+                          <input class="form-control phone-mask" name="fphone" minlength="16" type="text" placeholder="+7 ___-___-__-__" / value="" /> </div>
+                        <div class="col-5">
+                          <input class="btn btn-outline-light" type="submit" value="Отправить" /> </div>
+                      </div>
+                      <p> <b>Скидка 20% </b>от прайса по предварительной записи</p>
+                      <input type="text" name="surname" class="form-input cakeh" placeholder="Фамилия">
+                      <style>
+                        .cakeh {
+                          display: block;
+                          width: 2px;
+                          height: 3px;
+                          margin-bottom: -3px;
+                          opacity: 0.01
+                        }
+                      </style>
+                      <input type="hidden" name="af_action" value="ffa491db6b1ce57747f22f10cc4a3495" /> </form>
+                    <!-- end mainForm -->
+                  </div>
+                  <div class="col-lg-6 col-xl-7 text-center align-self-center"><img class="mt-30" src="assets/templates/default/img/slider/watch.png" alt="" /></div>
+                </div>
+              </div>
+            </div>
+          </div><a class="carousel-control-prev" href="index.html#carouselExampleFade" role="button" data-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="sr-only">Previous</span></a><a class="carousel-control-next" href="index.html#carouselExampleFade" role="button" data-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="sr-only">Next</span></a> </div>
+        <!-- end carusel -->
+      </div>
+    </div>
+  </header>
+  <!-- end header -->
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h3 class="fw-700 color-000 text-center mt-30 mb-40">Наши преимущества</h3> </div>
+      <div class="col-md-6 col-lg-4 mb-20">
+        <div class="infoBlock ib-1">
+          <p class="infoBlock__title">Бесплатная диагностика</p>
+          <p class="infoBlock__content">Всего за 15 минут инженер
+            <br>диагностирует неисправность</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 mb-20">
+        <a class="infoBlock ib-2" href="garantiya.html">
+          <p class="infoBlock__title">Гарантия до 12 месяцев</p>
+          <p class="infoBlock__content">Даем годовую гарантию на все
+            <br>услуги и запчасти</p>
+        </a>
+      </div>
+      <div class="col-lg-4 mb-20">
+        <a class="infoBlock ib-3" href="kontaktyi/index.html" style="padding-left:0;padding-right:0">
+          <p class="infoBlock__title">В 5 минутах от метро</p>
+          <p class="infoBlock__content">Мы находимся рядом с метро Вы,
+            <br>легко и быстро нас найдете</p>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h3 class="fw-700 color-000 text-center mt-80 mb-40">Какое устройство нуждается в ремонте?</h3> </div>
+      <div class="col-12 mb-30">
+        <div class="row">
+          <div class="col-md-6 col-lg-3 order-1">
+            <div class="row">
+              <div class="col-12" style="margin-bottom:0px">
+                <a class="section pt-10" href="uslugi/noutbuki/index.html"> <img src="assets/templates/default/img/repair/note.png" alt="Ноутбук" />
+                  <div class="section__title">Ноутбук</div>
+                </a>
+              </div>
+              <div class="col-12" style="margin-bottom:0px">
+                <a class="section pt-10" href="uslugi/planshetyi/index.html"> <img src="assets/templates/default/img/repair/tabl.png" alt="планшет" />
+                  <div class="section__title">планшет</div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 order-3 order-sm-3 order-lg-2" style="margin-bottom:0px;">
+            <a class="section pt-20" href="uslugi/smartfonyi/index.html" style="height:calc(100% - 17px)"> <img src="assets/templates/default/img/repair/smartphone.png" alt="Смартфон" style="max-height: 488px;" />
+              <div class="section__title">Смартфон</div>
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-3 order-2 text-right">
+            <div class="row">
+              <div class="col-12" style="margin-bottom:0px">
+                <a class="section pt-10" href="uslugi/televizoryi/index.html"> <img src="assets/templates/default/img/repair/tv.png" alt="Телевизор" />
+                  <div class="section__title">Телевизор</div>
+                </a>
+              </div>
+              <div class="col-12" style="margin-bottom:0px">
+                <a class="section pt-10" href="uslugi/chasyi/index.html"> <img src="assets/templates/default/img/repair/watch.png" alt="часы" />
+                  <div class="section__title">часы</div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3 order-5" style="margin-bottom:0px">
+            <a class="section pt-20" href="uslugi/monitoryi/index.html"> <img src="assets/templates/default/img/repair/monitor.png" alt="Мониторы" style="max-height: 488px;" />
+              <div class="section__title">Мониторы</div>
+            </a>
+          </div>
+          <div class="col-sm-6 col-lg-3 order-5" style="margin-bottom:0px">
+            <a class="section pt-20" href="uslugi/proektoryi/index.html"> <img src="assets/templates/default/img/repair/proektor.png" alt="Проекторы" style="max-height: 488px;" />
+              <div class="section__title">Проекторы</div>
+            </a>
+          </div>
+          <div class="col-sm-6 col-lg-3 order-5" style="margin-bottom:0px">
+            <a class="section pt-20" href="uslugi/xolodilniki/index.html"> <img src="assets/templates/default/img/repair/ref.png" alt="Холодильники" style="max-height: 488px;" />
+              <div class="section__title">Холодильники</div>
+            </a>
+          </div>
+          <div class="col-sm-6 col-lg-3 order-5" style="margin-bottom:0px">
+            <a class="section pt-20" href="uslugi/stiralnyie-mashinyi/index.html"> <img src="assets/templates/default/img/repair/wash.png" alt="Стиральные машины" style="max-height: 488px;" />
+              <div class="section__title">Стиральные машины</div>
+            </a>
+          </div>
+          <div class="col-sm-4 order-5" style="margin-bottom:0px">
+            <a class="section pt-20" href="uslugi/robotyi-pyilesosyi/index.html"> <img src="assets/templates/default/img/repair/rp.png" alt="Роботы пылесосы" style="max-height: 488px;" />
+              <div class="section__title">Роботы пылесосы</div>
+            </a>
+          </div>
+          <div class="col-sm-4 order-5" style="margin-bottom:0px">
+            <a class="section pt-20" href="uslugi/mikrovolnovki/index.html"> <img src="assets/templates/default/img/repair/micro.png" alt="Микроволновки" style="max-height: 488px;" />
+              <div class="section__title">Микроволновки</div>
+            </a>
+          </div>
+          <div class="col-sm-4 order-5" style="margin-bottom:0px">
+            <a class="section pt-20" href="uslugi/posudomojki/index.html"> <img src="assets/templates/default/img/repair/p.png" alt="Посудомойки" style="max-height: 488px;" />
+              <div class="section__title">Посудомойки</div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid mt-30 bg-difference d-none d-lg-block">
+    <div class="container">
+      <div class="row pb-80">
+        <div class="col-12">
+          <h3 class="fw-700 color-000 text-center mt-30 mb-40">Максимальный сервис с экономией 30%<br/>Ключевые отличия от других мастерских</h3> </div>
+        <div class="col-lg-4">
+          <h6 class="difference__title fw-600" style="margin-left:15px;font-size: 1.2rem;">Другие мастерские</h6> </div>
+        <div class="col-lg-8">
+          <h6 class="difference__title-g fw-600 mb-30" style="margin-left:55px;font-size: 1.2rem;">Наш сервисный центр</h6> </div>
+        <!-- difference -->
+        <div class="difference">
+          <div class="difference__other">Услуги курьера бесплатны только при оплате ремонта.</div>
+          <div class="difference__images"><img src="assets/templates/default/img/icon/difference/plus_1.svg" /></div>
+          <div class="difference__we">Курьер бесплатно приедет за техникой в любую точку города.</div>
+        </div>
+        <div class="difference">
+          <div class="difference__other">Нет материальной ответственности за устройства клиентов – гарантия либо на работы, либо на запчасти.</div>
+          <div class="difference__images"><img src="assets/templates/default/img/icon/difference/plus_2.svg" /></div>
+          <div class="difference__we">Гарантия на все устройство на 12 месяцев. Подписываем договор материальной ответственности.</div>
+        </div>
+        <div class="difference">
+          <div class="difference__other">Время ремонта – от 20 минут до нескольких дней.</div>
+          <div class="difference__images"><img src="assets/templates/default/img/icon/difference/plus_3.svg" /></div>
+          <div class="difference__we">Среднее время ремонта – от 15 минут до 1,5 часов благодаря высокотехнологичному оборудованию и штату мастеров.</div>
+        </div>
+        <div class="difference">
+          <div class="difference__other">Стоимость работ может измениться в ходе ремонта.</div>
+          <div class="difference__images"><img src="assets/templates/default/img/icon/difference/plus_4.svg" /></div>
+          <div class="difference__we">Фиксированная стоимость услуг, не меняющаяся в ходе ремонта. Комплектующие по себестоимости, цены ниже на 25-30%.</div>
+        </div>
+        <div class="difference">
+          <div class="difference__other">Нет всех необходимых запчастей, необходимо ждать комплектующие несколько дней.</div>
+          <div class="difference__images"><img src="assets/templates/default/img/icon/difference/plus_5.svg" /></div>
+          <div class="difference__we">150 м2 – площадь собственного склада оригинальных запчастей. Наличие деталей для любых моделей позволяет осуществить ремонт в сжатые сроки.</div>
+        </div>
+        <div class="difference">
+          <div class="difference__other">Осуществляются только ремонт и скупка устройств.</div>
+          <div class="difference__images"><img src="assets/templates/default/img/icon/difference/plus_6.svg" /></div>
+          <div class="difference__we">Ремонтируем устройства, подлежащие ремонту. Покупаем устройства, ремонт которых невыгоден. Подбираем новый гаджет по программе Trade-in.</div>
+        </div>
+        <div class="difference">
+          <div class="difference__other">После оказания услуги прощаются с клиентом, ограничиваясь гарантией.</div>
+          <div class="difference__images"><img src="assets/templates/default/img/icon/difference/plus_7.svg" /></div>
+          <div class="difference__we">Полная поддержка и сопровождение. Бесплатные консультации от мастеров как по "железу", так и по программной части.</div>
+        </div>
+        <div class="difference">
+          <div class="difference__other">Скидка при обращении через сайт в среднем составляет 10-15%.</div>
+          <div class="difference__images"><img src="assets/templates/default/img/icon/difference/plus_8.svg" /></div>
+          <div class="difference__we">Скидка всем нашим клиентам 20% при заказе с сайта. С 6-го обращения – ремонт 2-х устройств по цене 1. Постоянным клиентам ценные подарки и особые условия обслуживания.</div>
+        </div>
+        <!-- end difference -->
+      </div>
+    </div>
+  </div>
+  <div class="container d-none">
+    <div class="row mb-90">
+      <div class="col-12 mb-40">
+        <h3 class="fw-700 color-000 text-center">Посмотрите, как мы ремонтируем вашу технику</h3> </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row mb-90">
+      <div class="col-12 mb-40">
+        <h3 class="fw-700 color-000 text-center">За 5 лет мы восстановили более 16 000 устройств,<br>их владельцы – по-прежнему с нами.</h3> </div>
+      <div class="col-12">
+        <div id="reviews">
+          <div class="reviews owl-carousel">
+            <div class="item">
+              <div class="review">
+                <div class="review__chat"> <img src="assets/templates/default/img/icon/icon-chat.png" style="width:40px">
+                  <div class="review__num">Заказ B10907 от 01.09.2019 </div>
+                </div>
+                <div class="review__content">
+                  <p>Спасибо! Все конкретно, своевременно, тактично!</p>
+                </div>
+                <div style="margin-top:15px;margin-bottom:-15px;padding-left:20px;font-size:.9em;font-weight:500;color:#000">Юрий</div>
+                <div class="review__stars">
+                  <div class="review__star active"></div>
+                  <div class="review__star active"></div>
+                  <div class="review__star active"></div>
+                  <div class="review__star active"></div>
+                  <div class="review__star active"></div>
+                </div>
+                <div style="padding: 0px 10px 25px 40px"> <b style="font-size: .9rem">Администрация:</b>
+                  <p>Всегда пожалуйста :)</p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="review">
+                <div class="review__chat"> <img src="assets/templates/default/img/icon/icon-chat.png" style="width:40px">
+                  <div class="review__num">Заказ A39304 от 05.09.2019</div>
+                </div>
+                <div class="review__content">
+                  <p>Сдавал ноутбук, сделали за день, все вроде работает, проверим спустя время, все отзывчивые и приветливые.</p>
+                </div>
+                <div style="margin-top:15px;margin-bottom:-15px;padding-left:20px;font-size:.9em;font-weight:500;color:#000">Артур: </div>
+                <div class="review__stars">
+                  <div class="review__star active"></div>
+                  <div class="review__star active"></div>
+                  <div class="review__star active"></div>
+                  <div class="review__star active"></div>
+                  <div class="review__star active"></div>
+                </div>
+                <div style="padding: 0px 10px 25px 40px"> <b style="font-size: .9rem">Администрация:</b>
+                  <p>Спасибо за отзыв, бращайтесь :)</p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="review">
+                <div class="review__chat"> <img src="assets/templates/default/img/icon/icon-chat.png" style="width:40px">
+                  <div class="review__num">Заказ D6148 от 04.09.2019</div>
+                </div>
+                <div class="review__content">
+                  <p>Причина по которой пришла, не была решена! Был дан очень разумный совет, за что могу выразить огромное спасибо вашему коллективу.</p>
+                </div>
+                <div style="margin-top:15px;margin-bottom:-15px;padding-left:20px;font-size:.9em;font-weight:500;color:#000">Михаил</div>
+                <div class="review__stars">
+                  <div class="review__star active"></div>
+                  <div class="review__star active"></div>
+                  <div class="review__star active"></div>
+                  <div class="review__star active"></div>
+                </div>
+                <div style="padding: 0px 10px 25px 40px"> <b style="font-size: .9rem">Администрация:</b>
+                  <p>К сожалению, ремонт устройства был бы экономически нецелесообразен, но, чем смогли тем помогли :)</p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="review">
+                <div class="review__chat"> <img src="assets/templates/default/img/icon/icon-chat.png" style="width:40px">
+                  <div class="review__num">Заказ A40741 от 14.09.2019</div>
+                </div>
+                <div class="review__content">
+                  <p>Качественно и при этом быстро. За те деньги, что такая работа и стоит (не меньше, но и не больше). Пять баллов.</p>
+                </div>
+                <div style="margin-top:15px;margin-bottom:-15px;padding-left:20px;font-size:.9em;font-weight:500;color:#000">Григорий</div>
+                <div class="review__stars">
+                  <div class="review__star active"></div>
+                  <div class="review__star active"></div>
+                  <div class="review__star active"></div>
+                  <div class="review__star active"></div>
+                  <div class="review__star active"></div>
+                </div>
+                <div style="padding: 0px 10px 25px 40px"> <b style="font-size: .9rem">Администрация:</b>
+                  <p>Спасибо, приходите ещё :)</p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="review">
+                <div class="review__chat"> <img src="assets/templates/default/img/icon/icon-chat.png" style="width:40px">
+                  <div class="review__num">Заказ A37493 от 07.09.2019</div>
+                </div>
+                <div class="review__content">
+                  <p>Огромное спасибо этой компании, сделали серьёзную работу по ремонту европейского телефона. Советую! Серьёзная команда знает свое дело. Особенно хочу выделить менеджера Юрия.</p>
+                </div>
+                <div style="margin-top:15px;margin-bottom:-15px;padding-left:20px;font-size:.9em;font-weight:500;color:#000">Григорий</div>
+                <div class="review__stars">
+                  <div class="review__star active"></div>
+                  <div class="review__star active"></div>
+                  <div class="review__star active"></div>
+                  <div class="review__star active"></div>
+                  <div class="review__star active"></div>
+                </div>
+                <div style="padding: 0px 10px 25px 40px"> <b style="font-size: .9rem">Администрация:</b>
+                  <p>Спасибо за отзыв, выпишем Юрию премию :)</p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="review">
+                <div class="review__chat"> <img src="assets/templates/default/img/icon/icon-chat.png" style="width:40px">
+                  <div class="review__num">Заказ B11004 от 3.09.2019</div>
+                </div>
+                <div class="review__content">
+                  <p>Правда в день получения заказа, не вовремя открылись с утра .Зато курьера прислали бесплатно.</p>
+                </div>
+                <div style="margin-top:15px;margin-bottom:-15px;padding-left:20px;font-size:.9em;font-weight:500;color:#000">Александр</div>
+                <div class="review__stars">
+                  <div class="review__star active"></div>
+                  <div class="review__star active"></div>
+                  <div class="review__star active"></div>
+                  <div class="review__star active"></div>
+                  <div class="review__star active"></div>
+                </div>
+                <div style="padding: 0px 10px 25px 40px"> <b style="font-size: .9rem">Администрация:</b>
+                  <p>Спасибо за отзыв, утром нам отключили электричество :)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row mb-60">
+      <div class="col-12 mb-40">
+        <h3 class="fw-700 color-000 text-center">Как мы работаем?</h3> </div>
+      <div class="col-sm-6 col-lg-3">
+        <div class="howToWork">
+          <div class="col-3 pl-0"><img src="assets/templates/default/img/icon/1.png" alt="1"></div>
+          <div class="col-8 howToWork__array" style="margin-left:10px">
+            <p style="font-size:1em">Вы оставляете заявку на выезд курьера или привозите технику к нам в сервисный центр</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-3">
+        <div class="howToWork">
+          <div class="col-3 pl-0"><img src="assets/templates/default/img/icon/2.png" alt="2"></div>
+          <div class="col-8 howToWork__array" style="margin-left:10px">
+            <p style="font-size:1em">Мы проводим диагностику, после которой станут известны сроки и стоимость ремонта</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-3">
+        <div class="howToWork">
+          <div class="col-3 pl-0"><img src="assets/templates/default/img/icon/3.png" alt="3"></div>
+          <div class="col-8 howToWork__array" style="margin-left:10px">
+            <p style="font-size:1em">После Вашего подтверждения проводим ремонт устройства</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-3">
+        <div class="howToWork">
+          <div class="col-3 pl-0"><img src="assets/templates/default/img/icon/4.png" alt="4"></div>
+          <div class="col-8 howToWork__dashed" style="margin-left:10px">
+            <p style="font-size:1em">Вы забираете, или мы привозим Вам отремонтированную технику</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- questionForm -->
+  <div class="container-fluid mb-30">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 mt-40 mb-40">
+          <h3 class="fw-700 color-000 text-center">Заказать консультацию</h3> </div>
+        <div class="col-md-6 bg-blue-gradient">
+          <div class="row justify-content-center h100">
+            <div class="col-lg-7">
+              <div class="employees owl-carousel">
+                <div class="item">
+                  <div class="employee">
+                    <div class="employee__img"><img src="assets/templates/default/img/person/evgenij-aldoshin-inzhener.jpg" alt="Петр Никонов" /></div>
+                    <div class="employee__name">Петр Никонов</div>
+                    <div class="employee__position">инженер</div>
+                    <div class="employee__experience">Опыт - 6 лет. </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="employee">
+                    <div class="employee__img"><img src="assets/templates/default/img/person/anton-kardapolov.-inzhener.jpg" alt="Митронин Егор" /></div>
+                    <div class="employee__name">Митронин Егор</div>
+                    <div class="employee__position">Инженер</div>
+                    <div class="employee__experience">Опыт работы -7 лет. Всегда найдет оптимальный выход из любой ситуации</div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="employee">
+                    <div class="employee__img"><img src="assets/templates/default/img/person/ruzmat-avezov.-inzhener.jpg" alt="Рафик Абзалов" /></div>
+                    <div class="employee__name">Рафик Абзалов</div>
+                    <div class="employee__position">Инженер</div>
+                    <div class="employee__experience">Опыт работы-12 лет. Любит свою работу и коллег.</div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="employee">
+                    <div class="employee__img"><img src="assets/templates/default/img/person/evgenij-baraxta.-inzhener.jpg" alt="Владимир Друев" /></div>
+                    <div class="employee__name">Владимир Друев</div>
+                    <div class="employee__position">Инженер</div>
+                    <div class="employee__experience">Опыт работы - 8 лет. Передает свои знания молодым сотрудникам.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- -->
+        <div class="col-lg-6 row mt-30">
+          <div class="col-md-3 text-right d-none d-md-block">
+            <p class="mt-10">Имя:</p>
+            <p class="mt-30">Телефон:</p>
+            <p class="mt-20">Сообщение:</p>
+          </div>
+          <div class="col-md-7">
+            <form method="post" class="ajax_form" action="index.html">
+              <input type="hidden" name="flink" value="https://spb-serv-centre-sam.ru/">
+              <input type="hidden" name="pageName" value="Главная">
+              <div class="form-group">
+                <input class="form-control" type="text" name="fname" maxlength="200" placeholder="Имя" value=""> </div>
+              <div class="form-group">
+                <input class="form-control phone-mask" type="text" name="fphone" minlength="16" placeholder="Телефон" value=""> </div>
+              <div class="form-group">
+                <textarea class="form-control" name="message" maxlength="200" cols="30" rows="4" placeholder="Сообщение"></textarea>
+              </div>
+              <div class="form-group">
+                <div class="input">
+                  <div class="captcha-item" name="captcha_callback" id="captcha_callback1"></div> <span class="error_g-recaptcha-response error"></span> </div>
+              </div>
+              <div class="form-group">
+                <!-- outline-light -->
+                <input class="btn btn-default btn-lg" type="submit" value="Отправить заявку" /> </div>
+              <input type="text" name="surname" class="form-input cakeh" placeholder="Фамилия">
+              <style>
+                .cakeh {
+                  display: block;
+                  width: 2px;
+                  height: 3px;
+                  margin-bottom: -3px;
+                  opacity: 0.01
+                }
+              </style>
+              <input type="hidden" name="af_action" value="d479ed231a5b47df3f484a4030c6b830" /> </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end questionForm -->
+  <!-- garanty -->
+  <div class="container-fluid bg-garanty">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-lg-6 offset-md-2 offset-lg-6">
+          <h3 class="fs-38 mb-20"> Гарантия до 365 дней<br> на ремонт и запчасти </h3>
+          <p>Мы предоставляем полную гарантию на
+            <br> произведенный ремонт и замененные комплектующие.
+            <br> Работаем на свою репутацию и на ваши рекомендации! </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end garanty -->
+  <!-- <div style="position: fixed;top: 200px;right: 0;background: #2196F3;color: #fff;padding: 0 3px;border-radius: 4px 0 0 5px;font-size: .75rem"><span class="d-inline d-sm-none">xs</span><span class="d-none d-sm-inline d-md-none">sm</span><span class="d-none d-md-inline d-lg-none">md</span><span class="d-none d-lg-inline d-xl-none">lg</span><span class="d-none d-xl-inline">xl</span></div> -->
+  <div class="container-fluid bg-fast-form">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-lg-5">
+          <h2 style="font-size:32px">Скидка 20%</h2>
+          <p>Оставьте заявку, заполнив форму, и получите
+            <br>скидку на ремонт в размере 20%</p>
+          <!-- fastForm -->
+          <form method="post" action="index.html" class="form-row ajax_form">
+            <input type="hidden" name="flink" value="https://spb-serv-centre-sam.ru/">
+            <input type="hidden" name="pageName" value="Главная">
+            <div class="col-sm-7">
+              <div class="form-group">
+                <input class="form-control2 phone-mask" type="text" placeholder="Номер телефона" minlength="16" name="fphone" value="" style="border-radius:22px"> </div>
+            </div>
+            <div class="col-sm-5">
+              <div class="form-group">
+                <input type="submit" class="btn btn-light w100" value="Отправить"> </div>
+            </div>
+            <div class="col-12">
+              <p class="small">Нажимая на кнопку "Отправить", Вы даете согласие на обработку персональных данных.</p>
+            </div>
+            <input type="text" name="surname" class="form-input cakeh" placeholder="Фамилия">
+            <style>
+              .cakeh {
+                display: block;
+                width: 2px;
+                height: 3px;
+                margin-bottom: -3px;
+                opacity: 0.01;
+              }
+            </style>
+            <input type="hidden" name="af_action" value="9296ffc46f99c541479c9f7777afadcf" /> </form>
+          <!-- end fastForm -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="container-fluid bg-000">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 text-center">
+          <p class="mt-40 mb-20"> <b>Сервис-центр по ремонту Samsung</b></p> <span class="btn btn-outline-light btn-sm mb-10 btnmap" data-cor="[59.915453,30.312939]" style="cursor:pointer;width:220px;font-size:12px;font-size:10px;padding:6px;"> 2-я Красноармейская ул., 11 </span> <span class="btn btn-outline-light btn-sm mb-10 btnmap" data-cor="[60.031023,30.324097]" style="cursor:pointer;width:220px;font-size:12px;">Северный пр. 4 к1</span> <span class="btn btn-outline-light btn-sm mb-10 btnmap" data-cor="[59.857328,30.322312]" style="cursor:pointer;width:220px;font-size:12px;">Московский пр. 206</span> <span class="btn btn-outline-light btn-sm mb-10 btnmap" data-cor="[59.945707,30.276028]" style="cursor:pointer;width:220px;font-size:12px;">6-я Линия ВО, 43</span> <span class="btn btn-outline-light btn-sm mb-10 btnmap" data-cor="[59.919662,30.481706]" style="cursor:pointer;width:220px;font-size:12px;">Товарищеский пр. 6 к1</span>
+          <p>Время работы с 9.00 до 21.00</p>
+          <p>Телефон: <a class="color-fff phone_alloka" href="tel:+78123341145">+7 (812) 334-11-45</a></p>
+          <br/>
+          <br/>
+          <br/> <a class="btn btn-outline-light text-up mb-20" href="index.html#" data-toggle="modal" data-target="#callBack">Отправить заявку на ремонт</a>
+          <br/> <a class="btn btn-outline-light text-up mb-20" href="index.html#" data-toggle="modal" data-target="#mCourier">Бесплатно вызвать курьера</a> </div>
+        <div class="col-lg-7">
+          <div id="map">
+            <script type="text/javascript" charset="utf-8" async="" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af3a816d5e25f5ab0cbd5da16d29609c3cc6c974ba2b89342141ac094066b0634&width=100%25&height=350&lang=ru_RU&scroll=false"></script>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="assets/templates/default/js/scripts.min.js"></script>
+  <!-- end footer -->
+  <div id="scrolTop"></div>
+  <!-- modal -->
+  <!-- callBack -->
+  <div class="modal fade " id="callBack" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title text-center">Обратный звонок</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color: #fff"> <span aria-hidden="true">&times;</span> </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-12">
+              <form method="post" class="ajax_form" action="index.html">
+                <input type="hidden" name="flink" value="https://spb-serv-centre-sam.ru/">
+                <input type="hidden" name="pageName" value="Главная">
+                <div class="form-group">
+                  <input class="form-control" type="text" name="fname" maxlength="200" placeholder="Имя" value="" /> </div>
+                <div class="form-group">
+                  <input class="form-control phone-mask" type="text" minlength="16" name="fphone" placeholder="Телефон" value="" /> </div>
+                <div class="form-group">
+                  <textarea class="form-control" name="message" maxlength="200" cols="30" rows="4" placeholder="Сообщение"></textarea>
+                </div>
+                <div class="form-group">
+                  <div class="input">
+                    <div class="captcha-item" name="captcha_callback" id="captcha_callback2"></div> <span class="error_g-recaptcha-response error"></span> </div>
+                </div>
+                <div class="form-group"> <span class="row"> <span class="col-1 pr-0 mt-10"> <input id="yes" type="checkbox" required /> </span>
+                  <label class="col-10 prl-0" for="yes"> Нажимая «Отправить заявку», я даю свое согласие на обработку персональных данных. </label>
+                  </span>
+                </div>
+                <div class="form-group">
+                  <!-- dark -->
+                  <input class="btn btn-outline-dark w100" type="submit" value="Отправить заявку" /> </div>
+                <input type="text" name="surname" class="form-input cakeh" placeholder="Фамилия">
+                <style>
+                  .cakeh {
+                    display: block;
+                    width: 2px;
+                    height: 3px;
+                    margin-bottom: -3px;
+                    opacity: 0.01
+                  }
+                </style>
+                <input type="hidden" name="af_action" value="0390f1601a41f5c0d7278d6aaf27be44" /> </form>
+              <button class="closeModal" type="button" data-dismiss="modal" aria-label="Close" style="display: none"><span aria-hidden="true">×</span></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end callBack -->
+  <!-- Courier -->
+  <div class="modal fade" id="mCourier" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title text-center">Вызов курьера</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color: #fff"> <span aria-hidden="true">&times;</span> </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-12">
+              <form method="post" class="ajax_form" action="index.html">
+                <input type="hidden" name="flink" value="https://spb-serv-centre-sam.ru/">
+                <input type="hidden" name="pageName" value="Главная">
+                <div class="form-group">
+                  <input class="form-control" type="text" name="fname" maxlength="200" placeholder="Имя" value="" /> </div>
+                <div class="form-group">
+                  <input class="form-control phone-mask" type="text" name="fphone" minlength="16" placeholder="Телефон" value="" /> </div>
+                <div class="form-group">
+                  <textarea class="form-control" name="address" maxlength="200" cols="30" rows="4" placeholder="Адрес"></textarea>
+                </div>
+                <div class="form-group">
+                  <div class="input">
+                    <div class="captcha-item" name="captcha_callback" id="captcha_callback3"></div> <span class="error_g-recaptcha-response error"></span> </div>
+                </div>
+                <div class="form-group"> <span class="row"> <span class="col-1 pr-0 mt-10"> <input id="yes2" type="checkbox" required/> </span>
+                  <label class="col-10 prl-0" for="yes2"> Нажимая «Отправить заявку», я даю свое согласие на обработку персональных данных. </label>
+                  </span>
+                </div>
+                <div class="form-group">
+                  <!-- btn-dark -->
+                  <input class="btn btn-outline-dark w100" type="submit" value="Отправить заявку" /> </div>
+                <input type="text" name="surname" class="form-input cakeh" placeholder="Фамилия">
+                <style>
+                  .cakeh {
+                    display: block;
+                    width: 2px;
+                    height: 3px;
+                    margin-bottom: -3px;
+                    opacity: 0.01
+                  }
+                </style>
+                <input type="hidden" name="af_action" value="b77855b413e076940b4edf09ec7f5e03" /> </form>
+              <button class="closeModal" type="button" data-dismiss="modal" aria-label="Close" style="display: none"><span aria-hidden="true">×</span></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end Courier -->
+  <!-- sale -->
+  <div class="modal fade" id="saleModal" tabindex="-1" role="dialog" aria-labelledby="saleModal" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <!-- -->
+          <h5 class="modal-title text-center" style="background:#1329A0;color:#fff;font-size:33px;margin:-16px;margin-bottom:25px;padding:22px 0;border-radius:0 0 55px 55px;"> Заголовок акции </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color:#000;font-size:26px;position:absolute;right:-25px;top:-20px;"> <span aria-hidden="true">&times;</span> </button>
+          <!-- -->
+          <div class="row">
+            <div class="col-12">
+              <p>При заказе ремонта в будний день, вы получаете дополнительную скидку 10% на запчасти и работу.</p>
+            </div>
+            <div class="col-12"> video
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br> </div>
+            <div class="col-12">
+              <p class="small">Заголовок акции</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end sale -->
+  <!-- end modal -->
+  <script type="text/javascript">
+    var onloadCaptchaCallback = function() {
+      var siteKey = '6LeaB5oUAAAAAERxttGVHX9c11oo0Y9Xtk89yyVE';
+      $('.captcha-item').each(function(index) {
+        grecaptcha.render($(this).attr('id'), {
+          'sitekey': siteKey
+        });
+      });
+    };
+  </script>
+  <script type="text/javascript" src="https://analytics.alloka.ru/script/719a12962a8eb039"></script>
+  <link rel="stylesheet" href="https://cdn.envybox.io/widget/cbk.css">
+  <script type="text/javascript" src="https://cdn.envybox.io/widget/cbk.js?wcb_code=ce559e2e858bffaab11c03c199419f1b" charset="UTF-8" async></script>
+  <script src="https://rloger.herokuapp.com/assets/utd.js?client=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9"></script>
+  <div class="modal fade" id="cobid" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content" style="background-image:url(assets/templates/img/curer.jpg);background-position:bottom right;background-repeat:no-repeat;border:0;border-radius:0;">
+        <div class="modal-body">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+          <div class="row" style="padding:60px 0 100px 0">
+            <div class="col-12" style="">
+              <h4 style="text-shadow: 2px 0 3px #fff, -2px 0 3px #fff, 0 2px 3px #fff, 0 -2px 3px #fff;color:#000;display:none;">Мы работаем во время карантина</h4>
+              <p style="text-shadow: 2px 0 3px #fff, -2px 0 3px #fff, 0 2px 3px #fff, 0 -2px 3px #fff;color:#000">В связи с эпидемиологической ситуацией в стране,
+                <br>наш сервисный центр предлагает клиентам
+                <br> бесплатную услугу "Бесконтактный курьер"</p>
+              <br>
+              <button class="btn btn-outline-dark" data-dismiss="modal" aria-label="Close">Продолжить</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript">
+    window.onload = function() {
+      if (!localStorage.getItem('covid')) {
+        $('#cobid').modal('show');
+        localStorage.setItem('covid', 1);
+      }
+    };
+  </script>
+  <style>
+    @media (min-width: 620px) {
+      #cobid .modal-dialog {
+        max-width: 610px;
+        margin: 1.75rem auto;
+      }
+    }
+    
+    @media only screen and (max-width:480px) {
+      #cobid .modal-content {
+        background-image: none !important;
+      }
+    }
+  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js" integrity="sha256-Kg2zTcFO9LXOc7IwcBx1YeUBJmekycsnTsq2RuFHSZU=" crossorigin="anonymous"></script>
+  <script src="assets/components/ajaxform/js/default.js"></script>
+  <script type="text/javascript">
+    AjaxForm.initialize({
+      "assetsUrl": "\/assets\/components\/ajaxform\/",
+      "actionUrl": "\/assets\/components\/ajaxform\/action.php",
+      "closeMessage": "\u0437\u0430\u043a\u0440\u044b\u0442\u044c \u0432\u0441\u0435",
+      "formSelector": "form.ajax_form",
+      "pageId": 1
+    });
+  </script>
+</body>
+
+</html>
